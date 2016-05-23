@@ -1,4 +1,4 @@
-(navigator.onLine) ? console.log("hay señal") : console.log("no hay");
+/*(navigator.onLine) ? console.log("hay señal") : console.log("no hay");
 localStorage.setItem("nombre", "Brenda");
 
 
@@ -9,3 +9,11 @@ $(document).on("mobileinit", function () {
 	});
 
 });
+*/
+
+window.addEventListener("batterystatus", onBatteryStatus, false);
+
+function onBatteryStatus(info) {
+    // Handle the online event
+    alert("Level: " + info.level + " isPlugged: " + info.isPlugged);
+}

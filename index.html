@@ -1,37 +1,36 @@
-PE
-<html>
-	<head>
-		<meta chasrset="uft-8"></meta>
-		<title></title>
-		<link rel="stylesheet" href="jquery.mobile-1.4.5.css">
-		<script src="jquery-1.12.2.min.js"></script>
-		<script src="jquery.mobile-1.4.5.min.js"></script>
-	</head>
-	<body>
-		<!-- role Este div es la pagina completa-->
-		<div id="inicio" data-role="page">
-			<div data-role="header">
-				<p>APP 1</p>
-			</div>
-			<div data-role="content">
-				<p>Esto es la pantalla principal de la APP 1</p>
-				<a href="#adentro" class="ui-btn">Comenzar</a>
-			</div>
-			<div data-role="footer">
-				<p>Copyright</p>
-			</div>
-		</div>
-		<div id="adentro" data-role="page">
-			<div data-role="header">
-				<p>APP 1</p>
-			</div>
-			<div data-role="content">
-				<p>Estas dentro de la app</p>
-				<a href="#inicio" class="ui-btn">Salir</a>
-			</div>
-			<div data-role="footer">
-				<p>Copyright</p>
-			</div>
-		</div>
-	</body>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Ciudad Cultural Konex</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        
+        <link rel="stylesheet" href="css/jquery.mobile-1.4.5.css">
+        
+		<script src="js/jquery-1.12.2.min.js"></script>
+		<script>
+		    $(document).bind('mobileinit',function(){
+		        $.mobile.changePage.defaults.changeHash = false;
+		        $.mobile.hashListeningEnabled = false;
+		        $.mobile.pushStateEnabled = false;
+		    });
+		</script> 
+		<script src="js/jquery.mobile-1.4.5.min.js"></script>
+		<script src="js/app.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+		
+		<h1>Hello world!</h1>
+
+    </body>
 </html>

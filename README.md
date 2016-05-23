@@ -1,2 +1,0 @@
-# programacion
-Primera app

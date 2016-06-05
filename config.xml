@@ -26,10 +26,9 @@
     
     <!--deprecated gap:plugin-->
     <gap:plugin name="org.apache.cordova.device-orientation" />
-    <plugin name="cordova-plugin-battery-status" spec="1.1.0" source="pgb" />
     <plugin name="org.apache.cordova.device-orientation" source="pgb" spec="0.3.11" />
-    <plugin name="com.phonegap.plugins.barcodescanner" spec="2.0.0" source="pgb" />
     <plugin name="org.apache.cordova.geolocation" spec="0.3.12" source="pgb" />
+    
     <icon src="img/data/icon.png" />
     <icon platform="android" qualifier="ldpi" src="img/data/res/icon/android/icon-36-ldpi.png" />
     <icon platform="android" qualifier="mdpi" src="img/data/res/icon/android/icon-48-mdpi.png" />

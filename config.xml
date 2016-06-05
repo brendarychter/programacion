@@ -26,33 +26,33 @@
     
     <!--deprecated gap:plugin-->
     <gap:plugin name="org.apache.cordova.device-orientation" />
-    <plugin name="org.apache.cordova.device-orientation" source="pgb" spec="0.3.11" />
-    <plugin name="org.apache.cordova.geolocation" spec="0.3.12" source="pgb" />
-    
-    <icon src="img/data/icon.png" />
-    <icon platform="android" qualifier="ldpi" src="img/data/res/icon/android/icon-36-ldpi.png" />
-    <icon platform="android" qualifier="mdpi" src="img/data/res/icon/android/icon-48-mdpi.png" />
-    <icon platform="android" qualifier="hdpi" src="img/data/res/icon/android/icon-72-hdpi.png" />
-    <icon platform="android" qualifier="xhdpi" src="img/data/res/icon/android/icon-96-xhdpi.png" />
-    <icon platform="blackberry" src="img/data/res/icon/blackberry/icon-80.png" />
-    <icon platform="blackberry" state="hover" src="img/data/res/icon/blackberry/icon-80.png" />
-    <icon platform="ios" height="57" src="img/data/res/icon/ios/icon-57.png" width="57" />
-    <icon platform="ios" height="72" src="img/data/res/icon/ios/icon-72.png" width="72" />
-    <icon platform="ios" height="114" src="img/data/res/icon/ios/icon-57-2x.png" width="114" />
-    <icon platform="ios" height="144" src="img/data/res/icon/ios/icon-72-2x.png" width="144" />
-    <icon platform="webos" src="img/data/res/icon/webos/icon-64.png" />
-    <icon platform="winphone" src="img/data/res/icon/windows-phone/icon-48.png" />
-    <icon platform="winphone" role="background" src="img/data/res/icon/windows-phone/icon-173.png" />
-    <splash platform="android" qualifier="port-ldpi" src="img/data/res/screen/android/screen-ldpi-portrait.png" />
-    <splash platform="android" qualifier="port-mdpi" src="img/data/res/screen/android/screen-mdpi-portrait.png" />
-    <splash platform="android" qualifier="port-hdpi" src="img/data/res/screen/android/screen-hdpi-portrait.png" />
-    <splash platform="android" qualifier="port-xhdpi" src="img/data/res/screen/android/screen-xhdpi-portrait.png" />
-    <splash platform="blackberry" src="img/data/res/screen/blackberry/screen-225.png" />
-    <splash platform="ios" height="480" src="img/data/res/screen/ios/screen-iphone-portrait.png" width="320" />
-    <splash platform="ios" height="960" src="img/data/res/screen/ios/screen-iphone-portrait-2x.png" width="640" />
-    <splash platform="ios" height="1136" src="img/data/res/screen/ios/screen-iphone-portrait-568h-2x.png" width="640" />
-    <splash platform="ios" height="1024" src="img/data/res/screen/ios/screen-ipad-portrait.png" width="768" />
-    <splash platform="ios" height="768" src="img/data/res/screen/ios/screen-ipad-landscape.png" width="1024" />
-    <splash platform="winphone" src="img/data/res/screen/windows-phone/screen-portrait.jpg" />
+    <gap:plugin name="org.apache.cordova.device-orientation" source="pgb" spec="0.3.11" />
+    <gap:plugin name="org.apache.cordova.geolocation" spec="0.3.12" source="pgb" />
+
+    <icon src="img/icon.png" />
+    <icon platform="android" qualifier="ldpi" src="img/res/icon/android/icon-36-ldpi.png" />
+    <icon platform="android" qualifier="mdpi" src="img/res/icon/android/icon-48-mdpi.png" />
+    <icon platform="android" qualifier="hdpi" src="img/res/icon/android/icon-72-hdpi.png" />
+    <icon platform="android" qualifier="xhdpi" src="img/res/icon/android/icon-96-xhdpi.png" />
+    <icon platform="blackberry" src="img/res/icon/blackberry/icon-80.png" />
+    <icon platform="blackberry" state="hover" src="img/res/icon/blackberry/icon-80.png" />
+    <icon platform="ios" height="57" src="img/res/icon/ios/icon-57.png" width="57" />
+    <icon platform="ios" height="72" src="img/res/icon/ios/icon-72.png" width="72" />
+    <icon platform="ios" height="114" src="img/res/icon/ios/icon-57-2x.png" width="114" />
+    <icon platform="ios" height="144" src="img/res/icon/ios/icon-72-2x.png" width="144" />
+    <icon platform="webos" src="img/res/icon/webos/icon-64.png" />
+    <icon platform="winphone" src="img/res/icon/windows-phone/icon-48.png" />
+    <icon platform="winphone" role="background" src="img/res/icon/windows-phone/icon-173.png" />
+    <splash platform="android" qualifier="port-ldpi" src="img/res/screen/android/screen-ldpi-portrait.png" />
+    <splash platform="android" qualifier="port-mdpi" src="img/res/screen/android/screen-mdpi-portrait.png" />
+    <splash platform="android" qualifier="port-hdpi" src="img/res/screen/android/screen-hdpi-portrait.png" />
+    <splash platform="android" qualifier="port-xhdpi" src="img/res/screen/android/screen-xhdpi-portrait.png" />
+    <splash platform="blackberry" src="img/res/screen/blackberry/screen-225.png" />
+    <splash platform="ios" height="480" src="img/res/screen/ios/screen-iphone-portrait.png" width="320" />
+    <splash platform="ios" height="960" src="img/res/screen/ios/screen-iphone-portrait-2x.png" width="640" />
+    <splash platform="ios" height="1136" src="img/res/screen/ios/screen-iphone-portrait-568h-2x.png" width="640" />
+    <splash platform="ios" height="1024" src="img/res/screen/ios/screen-ipad-portrait.png" width="768" />
+    <splash platform="ios" height="768" src="img/res/screen/ios/screen-ipad-landscape.png" width="1024" />
+    <splash platform="winphone" src="img/res/screen/windows-phone/screen-portrait.jpg" />
     <access origin="*" />
 </widget>
